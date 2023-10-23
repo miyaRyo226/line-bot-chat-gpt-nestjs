@@ -1,0 +1,13 @@
+// See https://containers.dev/implementors/json_reference/ for configuration reference
+{
+	"name": "ChatGPT-LINE-NESTJS-SAMPLE",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+"remoteUser": "node",
+"forwardPorts": [3000],
+"features": {
+	"ghcr.io/devcontainers/features/git:1": {},
+	"ghcr.io/devcontainers/features/github-cli:1": {}
+}
+}
